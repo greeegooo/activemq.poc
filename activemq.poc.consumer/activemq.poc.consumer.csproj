@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Apache.NMS.ActiveMQ" Version="1.7.2" />
+  </ItemGroup>
+
 </Project>

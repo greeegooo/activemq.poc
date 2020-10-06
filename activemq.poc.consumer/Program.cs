@@ -6,7 +6,9 @@ namespace activemq.poc.consumer
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            IQueueMessageReceiver receiver = new QueueMessageReceiver();
+
+            receiver.Receive();
         }
     }
 }
